@@ -3,16 +3,30 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightgrey;
   }
-  .logo{
-      width: 20px;
-      height: 20px;
-      box-align: right;
+  p{
+    font-family: sans-serif;
   }
-  
+
+  h1{
+    font-family: sans-serif;
+  }
+  .writing{
+    text-align: center;
+    margin-right:300px;
+    margin-top:60px;
+  }
+
+  /*For the IRi logo*/
+  .logo{
+    margin-right:900px;
+    margin-bottom: 15px;
+ 
+  }
+  /*For the banner image*/
   .hero-image {
     background: url(IRIGlobalTechBackground.jpg) no-repeat center; 
     background-size: cover;
-    height: 300px;
+    height: 200px;
     position: relative;
   }
   
@@ -26,17 +40,26 @@ body {
   }
 
   
-
+/*For my video*/
+.video1 {
+  margin-top: 30px;
+  margin-left: 350px;
+}
+/*For the three floating zoom in images*/
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
-  margin-top: 50px;
+  
+  width: 300px;
+  height:300px;
+  margin-left:300px;
 }
+
 
 .gallery-item {
 	flex: 1 0 12rem;
 	margin: 1rem;
-    width: 75%;
+  width: 75%;
 	height: 75%;
 	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 	overflow: hidden;
@@ -48,6 +71,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	transition: transform 400ms ease-out;
+
 }
 
 .gallery-image:hover {
